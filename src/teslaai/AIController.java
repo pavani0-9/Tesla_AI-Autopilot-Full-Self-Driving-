@@ -16,11 +16,11 @@ public class AIController {
     }
     private void makeDecision(double distance) {
         if (distance < 20) {
-            System.out.println("🚨 Obstacle very close! Applying brakes.\n");
+            System.out.println(" Obstacle very close! Applying brakes.\n");
         } else if (distance < 50) {
-            System.out.println("⚠️  Object nearby! Slowing down.\n");
+            System.out.println(" Object nearby! Slowing down.\n");
         } else {
-            System.out.println("✅ Road clear. Maintaining speed.\n");
+            System.out.println(" Road clear. Maintaining speed.\n");
         }
     }
 }
